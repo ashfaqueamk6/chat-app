@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "ad94461a91d0c9994bfc6469270a7b85"
+name = "chat-app"
+handle = "premium-tax-app-8"
+application_url = "https://down-consultants-paragraph-signals.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-f589edcd.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://down-consultants-paragraph-signals.trycloudflare.com/auth/callback",
+  "https://down-consultants-paragraph-signals.trycloudflare.com/auth/shopify/callback",
+  "https://down-consultants-paragraph-signals.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+[pos]
+embedded = false
