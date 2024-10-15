@@ -105,15 +105,14 @@ const handleWhatsappAcount =(id,url,token,phone)=>{
                 {showNumbers ? (
                     <ul className="contact-list">
                       {instances
-                        .filter(instance => instance.status === 'authorized')
+                        .filter(instance => instance.status === 'notAuthorized')
                         .map(instance => (
                           <li
                             className="contact-item"
                             onClick={() => { handleWhatsappAcount(instance.idInstance, instance.apiUrl, instance.apiTokenInstance, instance.phone); }}
                             key={instance.idInstance}
                           >
-                            <img src={instance.avatar} />
-                            <div>{instance.phone}</div>
+                            <div>{instance.idInstance}</div>
                           </li>
                         ))
                       }

@@ -3,7 +3,7 @@
 client_id = "ad94461a91d0c9994bfc6469270a7b85"
 name = "chat-app"
 handle = "premium-tax-app-8"
-application_url = "https://down-consultants-paragraph-signals.trycloudflare.com"
+application_url = "https://reply-soldier-celebrate-coaching.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://down-consultants-paragraph-signals.trycloudflare.com/auth/callback",
-  "https://down-consultants-paragraph-signals.trycloudflare.com/auth/shopify/callback",
-  "https://down-consultants-paragraph-signals.trycloudflare.com/api/auth/callback"
+  "https://reply-soldier-celebrate-coaching.trycloudflare.com/auth/callback",
+  "https://reply-soldier-celebrate-coaching.trycloudflare.com/auth/shopify/callback",
+  "https://reply-soldier-celebrate-coaching.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
